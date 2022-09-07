@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const apiCalls = {};
-const requestUrl = 'http://54.68.223.9'
+const requestUrl = 'https://webanalyticsbackendapp.herokuapp.com'
 
 const token = window.localStorage.getItem("token");
 const refreshToken = window.localStorage.getItem("refreshtoken");
